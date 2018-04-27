@@ -8,9 +8,27 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
+/*** NAV STYLING ***/
+
 #nav {
   background-color: #4472CA;
 }
+
+.nav-active {
+  border-left: 2px solid #FFF;
+}
+
+.navbar-brand {
+  font-size: 24px;
+}
+
+.nav-link {
+  font-size: 18px;
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+}
+
+/*** HEADER STYLING ***/
 
 #header {
   background: url(../img/header.jpg);
@@ -43,10 +61,22 @@ body {
 
 #header h1 {
   font-size: 70px;
+  opacity: 0;
+  animation-name: header-fade;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
 }
 
 #header h3 {
 font-size: 45px;
+opacity: 0;
+animation-name: header-fade;
+animation-duration: 3s;
+animation-delay: 1s;
+animation-timing-function: linear;
+animation-fill-mode: forwards;
 }
 
 .fa-angle-down {
@@ -56,15 +86,22 @@ font-size: 45px;
   left: 50%;
   top: 88%;
   opacity: 0;
-  animation-name: flash;
+  animation-name: arrow-flash;
   animation-duration: 2s;
-  animation-delay: 1s;
+  animation-delay: 4s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
 
-@keyframes flash {
+/*** ANIMATIONS ***/
+
+@keyframes arrow-flash {
   0% {opacity: 0;}
   50% {opacity: 1;}
   100% {opacity: 0;}
+}
+
+@keyframes header-fade {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
 }
