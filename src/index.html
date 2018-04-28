@@ -14,8 +14,23 @@
 
 <body>
 
+  <!-- HEADER SECTION -->
+  <header id="header">
+    <div class="dark-overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col d-flex flex-column justify-content-center align-items-center">
+            <h1>Nick Boncella</h1>
+            <h2 class="text-center mt-2">Web Designer | Developer</h2>
+          </div>
+          <i class="fa fa-angle-down"></i>
+        </div>
+      </div>
+    </div>
+  </header>
+
   <!-- NAVBAR -->
-  <nav id="nav" class="navbar navbar-expand-sm navbar-dark fixed-top">
+  <nav id="nav" class="navbar navbar-expand-sm navbar-dark sticky-top">
     <div class="container">
       <!-- navbar brand and toggler icon -->
       <a href="index.html" class="navbar-brand">Nick Boncella</a>
@@ -42,20 +57,21 @@
     </div>
   </nav>
 
-  <!-- HEADER SECTION -->
-  <header id="header">
-    <div class="dark-overlay">
-      <div class="container">
-        <div class="row">
-          <div class="col d-flex flex-column justify-content-center align-items-center">
-            <h1>Nick Boncella</h1>
-            <h3 class="text-center mt-2">Web Designer | Developer</h3>
-          </div>
-          <i class="fa fa-angle-down"></i>
+  <!-- INTRO -->
+  <div id="intro">
+    <div class="container">
+      <h3 class='mt-5 mb-4 text-center'>Welcome To My Website!</h3>
+      <div class="row align-items-center">
+        <div class="col-md-5 d-none d-sm-block">
+          <img class="portrait mb-4" src="../img/port.jpg" alt="A Self Portrait">
         </div>
+        <div class="col-md-7 mb-3">
+          <p>Hi, my name is Nick Boncella.</p>
+        </div>
+        <a href="#" class="btn btn-about">Read More</a>
       </div>
     </div>
-  </header>
+  </div>
 
 
   <script src="script.js"></script>
