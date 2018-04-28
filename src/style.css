@@ -8,6 +8,20 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
+.btn {
+  font-size: 20px;
+  color: #fff;
+  background-color: #984447;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+
+.btn:hover {
+  color: #984447;
+  background-color: #FFF;
+  border: 1px solid #984447;
+}
+
 /*** NAV STYLING ***/
 
 #nav {
@@ -54,7 +68,7 @@ body {
   width: 100%;
 }
 
-.flex-column {
+#header .flex-column {
   height: 100vh;
   width: 100%;
 }
@@ -80,7 +94,6 @@ body {
 }
 
 .fa-angle-down {
-  cursor: pointer;
   font-size: 65px;
   position: absolute;
   left: 50%;
@@ -94,10 +107,6 @@ body {
 }
 
 /*** INTRO STYLING ***/
-
-#intro {
-  height: 650px;
-}
 
 #intro h3 {
   font-size: 40px;
@@ -120,17 +129,26 @@ body {
 .btn-about {
   display: inline-block !important;
   margin: 0 auto !important;
-  font-size: 20px;
-  color: #fff;
-  background-color: #984447;
-  padding-left: 30px !important;
-  padding-right: 30px !important;
 }
 
-.btn-about:hover {
-  color: #984447;
-  background-color: #FFF;
-  border: 2px solid #984447;
+/*** PORTFOLIO STYLING ***/
+
+#portfolio-head {
+  background-color: #0A369D;
+  color: #FFF;
+}
+
+#portfolio-head h3 {
+  font-size: 40px;
+}
+
+#portfolio-head p {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+#portfolio {
+  height: 600px;
 }
 
 /*** ANIMATIONS ***/

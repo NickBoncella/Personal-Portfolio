@@ -19,8 +19,8 @@
     <div class="dark-overlay">
       <div class="container">
         <div class="row">
-          <div class="col d-flex flex-column justify-content-center align-items-center">
-            <h1>Nick Boncella</h1>
+          <div class="col d-flex flex-column justify-content-center">
+            <h1 class="text-center">Nick Boncella</h1>
             <h2 class="text-center mt-2">Web Designer | Developer</h2>
           </div>
           <i class="fa fa-angle-down"></i>
@@ -59,20 +59,41 @@
 
   <!-- INTRO -->
   <div id="intro">
-    <div class="container">
-      <h3 class='mt-5 mb-4 text-center'>Welcome To My Website!</h3>
+    <div class="container my-5">
+      <h3 class='mb-4 text-center'>Welcome To My Website!</h3>
+      <!-- two col layout, hide img on xs,sm screens -->
       <div class="row align-items-center">
-        <div class="col-md-5 d-none d-sm-block">
+        <div class="col-md-5 d-none d-md-block">
           <img class="portrait mb-4" src="../img/port.jpg" alt="A Self Portrait">
         </div>
         <div class="col-md-7 mb-3">
           <p>Hi, my name is Nick Boncella.</p>
         </div>
+        <!-- btn to about page -->
         <a href="#" class="btn btn-about">Read More</a>
       </div>
     </div>
   </div>
 
+  <!-- PORTFOLIO -->
+  <div id="portfolio-head">
+    <!-- heading to portfolio section, flexbox columns -->
+    <div class="container d-flex flex-column align-items-center">
+      <h3 class="mt-5">View My Portfolio</h3>
+      <p class="mt-3 mb-3 text-center">Shown below are a few projects I've completed. Click the button below to see them all!</p>
+      <!-- bnt to portfolio page -->
+      <a href="#" class="btn mb-5">See All</a>
+    </div>
+  </div>
+
+  <div id="portfolio">
+    <div class="container">
+      <!-- row of cards containing portfolio examples -->
+      <div class="row">
+        <div class="col"></div>
+      </div>
+    </div>
+  </div>
 
   <script src="script.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
