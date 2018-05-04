@@ -150,7 +150,27 @@ body {
 }
 
 #portfolio {
-  height: 600px;
+  height: 300px;
+}
+
+/*** FOOTER STYLING ***/
+#footer {
+  background-color: #4472CA;
+  color: #FFF;
+}
+
+#footer .footer-icons {
+  font-size: 28px;
+}
+
+#footer a {
+  color: #FFF;
+}
+
+#footer .flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 /*** ANIMATIONS ***/
