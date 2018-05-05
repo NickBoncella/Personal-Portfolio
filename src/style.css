@@ -4,8 +4,9 @@
 }
 
 body {
-    background-color: #DAD6D6;
-    font-family: 'Oswald', sans-serif;
+  position: relative;
+  background-color: #DAD6D6;
+  font-family: 'Oswald', sans-serif;
 }
 
 .btn {
@@ -124,13 +125,10 @@ body {
 #intro p {
   font-size: 20px;
   line-height: 1.6;
-  display: block;
-  margin: 0 auto;
 }
 
 .btn-about {
-  display: inline-block !important;
-  margin: 0 auto !important;
+  display: inline-block;
 }
 
 /*** PORTFOLIO STYLING ***/
@@ -160,16 +158,17 @@ body {
 }
 
 #footer .footer-icons {
-  font-size: 28px;
+  font-size: 30px;
 }
 
 #footer a {
   color: #FFF;
+  text-decoration: none;
 }
 
 #footer .flex-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 
