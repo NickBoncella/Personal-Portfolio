@@ -36,8 +36,8 @@ function slideUp(e) {
   const isHalfShown = slideUpAt > slideIntro.offsetTop;
   const isNotScrolledPast = window.scrollY < imageBottom;
   if (isHalfShown && isNotScrolledPast) {
-    slideIntro.classList.add('active');
+    slideIntro.classList.add('slide-active');
   } else {
-    slideIntro.classList.remove('active');
+    slideIntro.classList.remove('slide-active');
   }
 }

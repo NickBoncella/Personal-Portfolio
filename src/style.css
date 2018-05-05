@@ -29,7 +29,7 @@ body {
   background-color: #4472CA;
 }
 
-.nav-active {
+.active {
   border-left: 2px solid #FFF;
 }
 
@@ -136,7 +136,7 @@ body {
   transform: translateY(30%);
 }
 
-.slide-up.active {
+.slide-up.slide-active {
   opacity: 1;
   transform: translateY(0%);
   transition: 1s;
@@ -159,7 +159,7 @@ body {
 }
 
 #portfolio {
-  height: 300px;
+  height: 700px;
 }
 
 /*** FOOTER STYLING ***/
