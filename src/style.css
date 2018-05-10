@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -160,6 +161,33 @@ body {
 
 #portfolio {
   height: 700px;
+}
+
+/***  CONTACT STYLING ***/
+
+/*** ABOUT STYLING ***/
+
+#about .row {
+  height: 100vh;
+}
+
+#about .about-content {
+  font-size: 20px;
+  line-height: 1.6;
+  min-height: 50vh;
+  /* max-height: 75vh; */
+  background-color: #FFF;
+  border: 15px solid #984447;
+  border-radius: 10px;
+  opacity: 0;
+  animation-name: header-fade;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.btn-resume {
+  display: inline-block;
 }
 
 /*** FOOTER STYLING ***/
